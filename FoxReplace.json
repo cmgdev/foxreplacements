@@ -1,0 +1,232 @@
+{
+  "version": "0.15",
+  "groups": [
+    {
+      "name": "filter",
+      "urls": [
+        "*",
+        "-workdomain.com"
+      ],
+      "substitutions": [
+        {
+          "input": "cyber",
+          "inputType": "text",
+          "output": "<i title=\"cyber\">Wizard</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "digital native",
+          "inputType": "text",
+          "output": "<i title=\"digital native\">Parseltongue</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "(Donald )*Trump",
+          "inputType": "regexp",
+          "output": "<i title=\"Donald Trump\">some rich asshole</i>",
+          "caseSensitive": true
+        },
+        {
+          "input": "witnesses",
+          "inputType": "text",
+          "output": "<i title=\"witnesses\">these dudes I know</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "allegedly",
+          "inputType": "text",
+          "output": "<i title=\"allegedly\">kinda probably</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "new study",
+          "inputType": "text",
+          "output": "<i title=\"new study\">tumblr post</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "rebuild",
+          "inputType": "text",
+          "output": "<i title=\"rebuild\">avenge</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "space",
+          "inputType": "text",
+          "output": "<i title=\"space\">spaaace</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "google glass",
+          "inputType": "text",
+          "output": "<i title=\"google glass\">virtual boy</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "smartphone",
+          "inputType": "text",
+          "output": "<i title=\"smartphone\">Pokédex</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "electric",
+          "inputType": "text",
+          "output": "<i title=\"electric\">atomic</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "senator",
+          "inputType": "text",
+          "output": "<i title=\"senator\">elf-lord</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "car ",
+          "inputType": "text",
+          "output": "<i title=\"car\">cat</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "election",
+          "inputType": "text",
+          "output": "<i title=\"election\">eating contest</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "congressional leaders",
+          "inputType": "text",
+          "output": "<i title=\"congressional leaders\">river spirits</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "homeland security",
+          "inputType": "text",
+          "output": "<i title=\"homeland security\">homestar runner</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "could not be reached for comment",
+          "inputType": "text",
+          "output": "<i title=\"could not be reached for comment\">is guilty and everyone knows it</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "debate",
+          "inputType": "text",
+          "output": "<i title=\"debate\">dance-off</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "self driving",
+          "inputType": "text",
+          "output": "<i title=\"self driving\">uncontrollably swerving</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "poll",
+          "inputType": "text",
+          "output": "<i title=\"poll\">psychic reading</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "candidate",
+          "inputType": "text",
+          "output": "<i title=\"candidate\">airbender</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "drone",
+          "inputType": "text",
+          "output": "<i title=\"drone\">dog</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "vows to",
+          "inputType": "text",
+          "output": "<i title=\"vows to\">probably won't</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "at large",
+          "inputType": "text",
+          "output": "<i title=\"at large\">very large</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "successfully",
+          "inputType": "text",
+          "output": "<i title=\"successfully\">suddenly</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "expands",
+          "inputType": "text",
+          "output": "<i title=\"expands\">physically expands</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "(first|second|third)-degree",
+          "inputType": "regexp",
+          "output": "<i title=\"(first|second|third)-degree\">friggin' awful</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "an unknown number",
+          "inputType": "text",
+          "output": "<i title=\"an unknown number\">like hundreds</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "front runner",
+          "inputType": "text",
+          "output": "<i title=\"front runner\">blade runner</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "global",
+          "inputType": "text",
+          "output": "<i title=\"global\">spherical</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "years",
+          "inputType": "text",
+          "output": "min_placeholder",
+          "caseSensitive": false
+        },
+        {
+          "input": "minutes",
+          "inputType": "text",
+          "output": "<i title=\"minutes\">years</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "min_placeholder",
+          "inputType": "text",
+          "output": "<i title=\"years\">minutes</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "no indication",
+          "inputType": "text",
+          "output": "<i title=\"no indication\">lots of signs</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "urged restraint by",
+          "inputType": "text",
+          "output": "<i title=\"urged restraint by\">drunkenly egged on</i>",
+          "caseSensitive": false
+        },
+        {
+          "input": "horsepower",
+          "inputType": "text",
+          "output": "<i title=\"horsepower\">tons of horsemeat </i>",
+          "caseSensitive": false
+        }
+      ],
+      "html": "output",
+      "enabled": true
+    }
+  ]
+}
